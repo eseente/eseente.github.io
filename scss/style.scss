@@ -8,7 +8,7 @@ $white: #fff;
 $black: #000000;
 $darken: #111111;
 
-$primary: #f3c623;
+$primary: #F73D93;
 $secondary: #fffb37;
 
 
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5,
 	overflow-y: hidden;
 	z-index: 1001;
 	// background: #141414;
-	background: url(../images/aside.png) no-repeat right top #000;
+	background: no-repeat right top #000;
 	@include transition(.5s);
 	@include media-breakpoint-up(lg){
 		width: 25%;
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5,
 	}
 	@include media-breakpoint-down(md){
 		width: 270px;
-		background: url(../images/aside.png) no-repeat right top #000 !important;
+		background: no-repeat right top #000 !important;
 		@include translateX(-270px);
 		padding-top: 2em;
 	}
